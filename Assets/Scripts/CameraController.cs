@@ -29,7 +29,7 @@ public class CameraController : MonoBehaviour
                 StartCoroutine("pivotToCharacter");
 
             }
-            if (hasReached)
+            else (hasReached)
             {
                 transform.position = new Vector3(ballX, ballY, -10);
 
