@@ -29,10 +29,9 @@ public class CameraController : MonoBehaviour
                 StartCoroutine("pivotToCharacter");
 
             }
-            else (hasReached)
+            else
             {
                 transform.position = new Vector3(ballX, ballY, -10);
-
             }
 
 
